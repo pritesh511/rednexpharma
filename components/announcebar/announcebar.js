@@ -7,6 +7,7 @@ import {
   AnnounceSection,
   DownloadButton,
 } from "./styles";
+import { FaDownload } from "react-icons/fa";
 
 const Announcebar = () => {
   return (
@@ -17,7 +18,10 @@ const Announcebar = () => {
             <AnnounceLeft>
               <DownloadButton>
                 <Link href="/">
-                  <a>Download Product Brochure</a>
+                  <a>
+                    <FaDownload />
+                    <span>Download Product Brochure</span>
+                  </a>
                 </Link>
               </DownloadButton>
             </AnnounceLeft>

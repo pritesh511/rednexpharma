@@ -19,6 +19,9 @@ const DownloadButton = styled.div`
     font-size: 13px;
     line-height: 18px;
     font-weight: 700;
+    span {
+      margin-left: 6px;
+    }
     :hover {
       background-color: rgba(237, 28, 36, 0.95);
     }
