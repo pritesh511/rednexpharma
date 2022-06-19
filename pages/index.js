@@ -1,4 +1,5 @@
 import { NextSeo } from "next-seo";
+import Carousel from "../components/carousel/carousel";
 import Layout from "../components/layout";
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
         description="Rednex Pharmaceuticals"
       />
       <Layout>
-        <h1>home page</h1>
+        <Carousel />
       </Layout>
     </>
   );
