@@ -1,7 +1,11 @@
 import styled from "styled-components";
 import { Text2 } from "../../styles/styles";
 
-const NavbarSection = styled.section``;
+const NavbarSection = styled.section`
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 const NavbarBlock = styled.div`
   display: flex;
   align-items: center;

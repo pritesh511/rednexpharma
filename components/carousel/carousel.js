@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { ArrowBlock, CarouselWrap, Slide } from "./styles";
+import { LeftArrowBlock, CarouselWrap, Slide, RightArrowBlock } from "./styles";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
@@ -14,14 +14,14 @@ const HeroCarousel = () => {
           showStatus={false}
           showThumbs={false}
           renderArrowPrev={(clickHandler, hasPrev, label) => (
-            <ArrowBlock>
-              <ArrowBackIosNewIcon onClick={clickHandler} />
-            </ArrowBlock>
+            <LeftArrowBlock onClick={clickHandler}>
+              <ArrowBackIosNewIcon style={{ color: "white" }} />
+            </LeftArrowBlock>
           )}
           renderArrowNext={(clickHandler, hasPrev, label) => (
-            <ArrowBlock>
-              <ArrowForwardIosIcon onClick={clickHandler} />
-            </ArrowBlock>
+            <RightArrowBlock onClick={clickHandler}>
+              <ArrowForwardIosIcon style={{ color: "white" }} />
+            </RightArrowBlock>
           )}
         >
           <Slide>
