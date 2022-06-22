@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import { Container, SectionHeading, SectionPara } from "../styles/commonStyles";
 import { ReadMoreButton, WelcomeSection } from "../styles/homePageStyles";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import PresentSlider from "../components/slider/slider";
 
 const Home = () => {
   return (
@@ -48,6 +49,7 @@ const Home = () => {
             </ReadMoreButton>
           </Container>
         </WelcomeSection>
+        <PresentSlider />
       </Layout>
     </>
   );
