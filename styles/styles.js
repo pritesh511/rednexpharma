@@ -14,6 +14,10 @@ const Heading3 = css`
   font-size: 28px;
   line-height: 40px;
   font-weight: 700;
+  @media only screen and (max-width: 768px) {
+    font-size: 22px;
+    line-height: 38px;
+  }
 `;
 
 const Heading4 = css`

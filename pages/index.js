@@ -3,7 +3,12 @@ import { NextSeo } from "next-seo";
 import Carousel from "../components/carousel/carousel";
 import Layout from "../components/layout";
 import { Container, SectionHeading, SectionPara } from "../styles/commonStyles";
-import { ReadMoreButton, WelcomeSection } from "../styles/homePageStyles";
+import {
+  FounderItem,
+  FounderList,
+  ReadMoreButton,
+  WelcomeSection,
+} from "../styles/homePageStyles";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import PresentSlider from "../components/slider/slider";
 
@@ -50,6 +55,27 @@ const Home = () => {
           </Container>
         </WelcomeSection>
         <PresentSlider />
+        <WelcomeSection>
+          <Container>
+            <SectionHeading>
+              <span>Directors of</span> Rednex Pharmaceuticals
+            </SectionHeading>
+            <FounderList>
+              <FounderItem>
+                <h3>Chetan Matholiya</h3>
+                <span>Co-Founder</span>
+              </FounderItem>
+              <FounderItem>
+                <h3>Jayesh Sabava</h3>
+                <span>Co-Founder</span>
+              </FounderItem>
+              <FounderItem>
+                <h3>Kartik Gangadiya</h3>
+                <span>Co-Founder</span>
+              </FounderItem>
+            </FounderList>
+          </Container>
+        </WelcomeSection>
       </Layout>
     </>
   );
