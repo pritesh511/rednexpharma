@@ -27,4 +27,8 @@ const SectionPara = styled.div`
   }
 `;
 
-export { Container, SectionHeading, SectionPara };
+const FcSection = styled.section`
+  padding: 45px 0;
+`;
+
+export { Container, SectionHeading, SectionPara, FcSection };
