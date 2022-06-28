@@ -24,7 +24,7 @@ const About = () => {
         description="Rednex Pharmaceuticals"
       />
       <Layout>
-        <SectionHeader />
+        <SectionHeader heading="About Us" patentPage="About Us" childPage="" />
         <FcSection>
           <Container>
             <SectionHeading>

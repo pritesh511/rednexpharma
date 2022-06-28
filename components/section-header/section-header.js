@@ -2,13 +2,15 @@ import Link from "next/link";
 import { Container } from "../../styles/commonStyles";
 import { BannerBlock, BannerSection, BreadCrum, Line, Slash } from "./styles";
 
-const SectionHeader = () => {
+const SectionHeader = (props) => {
+  const { heading, patentPage } = props;
+
   return (
     <>
       <BannerSection>
         <Container>
           <BannerBlock>
-            <h1>About Us</h1>
+            <h1>{heading}</h1>
             <Line></Line>
           </BannerBlock>
           <BreadCrum>
@@ -16,7 +18,7 @@ const SectionHeader = () => {
               <a>Home</a>
             </Link>
             <Slash>/</Slash>
-            <span>About Us</span>
+            <span>{patentPage}</span>
           </BreadCrum>
         </Container>
       </BannerSection>
