@@ -15,12 +15,13 @@ const ContactBlock = styled.div`
   @media only screen and (max-width: 560px) {
     position: static;
     border-radius: 0;
-    padding: 20px 0;
   }
 `;
 
 const ContactHeading = styled.h2`
-  ${Heading2}
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 500;
   padding: 0 0 10px 0;
   margin: 0 0 15px 0;
   color: var(--white);
@@ -30,7 +31,6 @@ const ContactHeading = styled.h2`
 
 const ContactRow = styled.div`
   display: flex;
-  margin: 0 -15px;
   @media only screen and (max-width: 479px) {
     margin: 0;
     flex-wrap: wrap;
@@ -38,15 +38,12 @@ const ContactRow = styled.div`
 `;
 const ColLeft = styled.div`
   width: 60%;
-  padding: 0 10px 0 15px;
   @media only screen and (max-width: 479px) {
     width: 100%;
-    padding: 0;
   }
 `;
 const ColRight = styled.div`
   width: 40%;
-  padding: 0 15px 0 10px;
   @media only screen and (max-width: 479px) {
     width: 100%;
     padding: 26px 0 0 0;
@@ -67,7 +64,7 @@ const TopFlex = styled.div`
 const Icon = styled.div``;
 
 const BottoContent = styled.div`
-  padding: 24px 0 0 34px;
+  padding: 20px 0 0 34px;
   p {
     font-size: 14px;
     line-height: 20px;

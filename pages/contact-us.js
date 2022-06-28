@@ -12,11 +12,15 @@ import {
   MapSection,
   TopFlex,
 } from "../styles/contactPageStyles";
-import { Container } from "../styles/commonStyles";
+import { NextSeo } from "next-seo";
 
 const Contact = () => {
   return (
     <>
+      <NextSeo
+        title="Contact Us | Rednex Pharmaceuticals"
+        description="Rednex Pharmaceuticals"
+      />
       <Layout>
         <SectionHeader
           heading="contact us"
@@ -33,48 +37,46 @@ const Contact = () => {
             allowfullscreen=""
           ></iframe>
           <ContactBlock>
-            <Container>
-              <ContactHeading>REDNEX PHARMACEUTICALS</ContactHeading>
-              <ContactRow>
-                <ColLeft>
-                  <TopFlex>
-                    <Icon>
-                      <Image
-                        src="/images/location-icon.png"
-                        alt="location-icon"
-                        width={16}
-                        height={24}
-                      />
-                    </Icon>
-                    <h3>Address</h3>
-                  </TopFlex>
-                  <BottoContent>
-                    <p>L.S. No-142, Nr. HBS,</p>
-                    <p>Chacharvadi Vasna,</p>
-                    <p>Ta: Sanand, Ahmedabad-382213,</p>
-                    <p>Gujarat, India,</p>
-                  </BottoContent>
-                </ColLeft>
-                <ColRight>
-                  <TopFlex>
-                    <Icon>
-                      <Image
-                        src="/images/phone-icon.png"
-                        alt="location-icon"
-                        width={19}
-                        height={24}
-                      />
-                    </Icon>
-                    <h3>Phone Number</h3>
-                  </TopFlex>
-                  <BottoContent>
-                    <p>+ 91 97244 77890</p>
-                    <p>+ 91 96245 44103</p>
-                    <p>+ 91 84909 35293</p>
-                  </BottoContent>
-                </ColRight>
-              </ContactRow>
-            </Container>
+            <ContactHeading>REDNEX PHARMACEUTICALS</ContactHeading>
+            <ContactRow>
+              <ColLeft>
+                <TopFlex>
+                  <Icon>
+                    <Image
+                      src="/images/location-icon.png"
+                      alt="location-icon"
+                      width={16}
+                      height={24}
+                    />
+                  </Icon>
+                  <h3>Address</h3>
+                </TopFlex>
+                <BottoContent>
+                  <p>L.S. No-142, Nr. HBS,</p>
+                  <p>Chacharvadi Vasna,</p>
+                  <p>Ta: Sanand, Ahmedabad-382213,</p>
+                  <p>Gujarat, India,</p>
+                </BottoContent>
+              </ColLeft>
+              <ColRight>
+                <TopFlex>
+                  <Icon>
+                    <Image
+                      src="/images/phone-icon.png"
+                      alt="location-icon"
+                      width={19}
+                      height={24}
+                    />
+                  </Icon>
+                  <h3>Phone Number</h3>
+                </TopFlex>
+                <BottoContent>
+                  <p>+ 91 97244 77890</p>
+                  <p>+ 91 96245 44103</p>
+                  <p>+ 91 84909 35293</p>
+                </BottoContent>
+              </ColRight>
+            </ContactRow>
           </ContactBlock>
         </MapSection>
       </Layout>
