@@ -52,58 +52,44 @@ const PresentSlider = () => {
             <Slider {...settings}>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/syrup.jpg" />
-                    <span>syrup</span>
-                  </a>
+                  <img src="/images/syrup.jpg" />
+                  <span>syrup</span>
                 </Link>
               </Slide>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/suspension.jpg" />
-                    <span>suspension</span>
-                  </a>
+                  <img src="/images/suspension.jpg" />
+                  <span>suspension</span>
                 </Link>
               </Slide>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/drops.jpg" />
-                    <span>drops</span>
-                  </a>
+                  <img src="/images/drops.jpg" />
+                  <span>drops</span>
                 </Link>
               </Slide>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/gel.jpg" />
-                    <span>gel</span>
-                  </a>
+                  <img src="/images/gel.jpg" />
+                  <span>gel</span>
                 </Link>
               </Slide>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/cream.jpg" />
-                    <span>cream</span>
-                  </a>
+                  <img src="/images/cream.jpg" />
+                  <span>cream</span>
                 </Link>
               </Slide>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/ointment.jpg" />
-                    <span>ointment</span>
-                  </a>
+                  <img src="/images/ointment.jpg" />
+                  <span>ointment</span>
                 </Link>
               </Slide>
               <Slide>
                 <Link href="/">
-                  <a>
-                    <img src="/images/lotion.jpg" />
-                    <span>lotion</span>
-                  </a>
+                  <img src="/images/lotion.jpg" />
+                  <span>lotion</span>
                 </Link>
               </Slide>
             </Slider>

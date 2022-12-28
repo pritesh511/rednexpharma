@@ -14,9 +14,7 @@ const SectionHeader = (props) => {
             <Line></Line>
           </BannerBlock>
           <BreadCrum>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
+            <Link href="/">Home</Link>
             <Slash>/</Slash>
             <span>{patentPage}</span>
           </BreadCrum>

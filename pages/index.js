@@ -46,10 +46,8 @@ const Home = () => {
             </SectionPara>
             <ReadMoreButton>
               <Link href="/about-us">
-                <a>
-                  Read More
-                  <ArrowRightAltIcon style={{ margin: "0 0 0 3px" }} />
-                </a>
+                Read More
+                <ArrowRightAltIcon style={{ margin: "0 0 0 3px" }} />
               </Link>
             </ReadMoreButton>
           </Container>

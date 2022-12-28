@@ -15,8 +15,12 @@ import {
   VisonListItem,
 } from "../styles/aboutPageStyles";
 import { Container, FcSection, SectionHeading } from "../styles/commonStyles";
+import { useRouter } from "next/router";
 
 const About = () => {
+  const router = useRouter();
+  console.log(router);
+
   return (
     <>
       <NextSeo

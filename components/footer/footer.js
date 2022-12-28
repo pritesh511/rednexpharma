@@ -32,14 +32,12 @@ const Footer = () => {
             <FooterColumn>
               <FooterLogo>
                 <Link href="/">
-                  <a>
-                    <Image
-                      src="/images/footer_logo.png"
-                      alt="footer-logo"
-                      width={230}
-                      height={55}
-                    />
-                  </a>
+                  <Image
+                    src="/images/footer_logo.png"
+                    alt="footer-logo"
+                    width={230}
+                    height={55}
+                  />
                 </Link>
               </FooterLogo>
               <FooterPara>
@@ -77,42 +75,34 @@ const Footer = () => {
               <FooterList>
                 <FooterItem>
                   <Link href="tel:+919724477890">
-                    <a>
-                      <ContactPhoneIcon
-                        style={{ fontSize: "large", margin: "0 8px 0 0" }}
-                      />
-                      + 91 97244 77890
-                    </a>
+                    <ContactPhoneIcon
+                      style={{ fontSize: "large", margin: "0 8px 0 0" }}
+                    />
+                    + 91 97244 77890
                   </Link>
                 </FooterItem>
                 <FooterItem>
                   <Link href="tel:+919624544103">
-                    <a>
-                      <ContactPhoneIcon
-                        style={{ fontSize: "large", margin: "0 8px 0 0" }}
-                      />
-                      + 91 96245 44103
-                    </a>
+                    <ContactPhoneIcon
+                      style={{ fontSize: "large", margin: "0 8px 0 0" }}
+                    />
+                    + 91 96245 44103
                   </Link>
                 </FooterItem>
                 <FooterItem>
                   <Link href="tel:+918490935293">
-                    <a>
-                      <ContactPhoneIcon
-                        style={{ fontSize: "large", margin: "0 8px 0 0" }}
-                      />
-                      + 91 84909 35293
-                    </a>
+                    <ContactPhoneIcon
+                      style={{ fontSize: "large", margin: "0 8px 0 0" }}
+                    />
+                    + 91 84909 35293
                   </Link>
                 </FooterItem>
                 <FooterItem>
                   <Link href="mailto:rednexpharma@gmail.com">
-                    <a>
-                      <EmailIcon
-                        style={{ fontSize: "large", margin: "0 8px 0 0" }}
-                      />
-                      rednexpharma@gmail.com
-                    </a>
+                    <EmailIcon
+                      style={{ fontSize: "large", margin: "0 8px 0 0" }}
+                    />
+                    rednexpharma@gmail.com
                   </Link>
                 </FooterItem>
               </FooterList>
@@ -125,34 +115,26 @@ const Footer = () => {
               <FooterPageList>
                 <FooterPageItem>
                   <Link href="/">
-                    <a>
-                      <ChevronRightIcon />
-                      Home
-                    </a>
+                    <ChevronRightIcon />
+                    Home
                   </Link>
                 </FooterPageItem>
                 <FooterPageItem>
                   <Link href="/about-us">
-                    <a>
-                      <ChevronRightIcon />
-                      About Us
-                    </a>
+                    <ChevronRightIcon />
+                    About Us
                   </Link>
                 </FooterPageItem>
                 <FooterPageItem>
                   <Link href="/enquiry">
-                    <a>
-                      <ChevronRightIcon />
-                      Enquiry
-                    </a>
+                    <ChevronRightIcon />
+                    Enquiry
                   </Link>
                 </FooterPageItem>
                 <FooterPageItem>
                   <Link href="/contact-us">
-                    <a>
-                      <ChevronRightIcon />
-                      Contact
-                    </a>
+                    <ChevronRightIcon />
+                    Contact
                   </Link>
                 </FooterPageItem>
               </FooterPageList>
@@ -165,14 +147,12 @@ const Footer = () => {
             <SocialBlock>
               <span>Follow us on :</span>
               <Link href="https://www.facebook.com/Rednex-Pharmaceuticals-597208590752806/">
-                <a>
-                  <Image
-                    src="/images/facebook_icon.svg"
-                    alt="facebook-icon"
-                    width={32}
-                    height={32}
-                  />
-                </a>
+                <Image
+                  src="/images/facebook_icon.svg"
+                  alt="facebook-icon"
+                  width={32}
+                  height={32}
+                />
               </Link>
             </SocialBlock>
           </FooteBottomBlock>

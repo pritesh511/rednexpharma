@@ -23,10 +23,8 @@ const Announcebar = () => {
             <AnnounceLeft>
               <DownloadButton>
                 <Link href="/">
-                  <a>
-                    <DownloadIcon style={{ fontSize: "medium" }} />
-                    <span>Download Product Brochure</span>
-                  </a>
+                  <DownloadIcon style={{ fontSize: "medium" }} />
+                  <span>Download Product Brochure</span>
                 </Link>
               </DownloadButton>
             </AnnounceLeft>
@@ -35,34 +33,26 @@ const Announcebar = () => {
               <ContactList>
                 <ContactItem>
                   <Link href="mailto:rednexpharma@gmail.com">
-                    <a>
-                      <EmailIcon style={{ fontSize: "medium" }} />
-                      <span>rednexpharma@gmail.com</span>
-                    </a>
+                    <EmailIcon style={{ fontSize: "medium" }} />
+                    <span>rednexpharma@gmail.com</span>
                   </Link>
                 </ContactItem>
                 <ContactItem>
                   <Link href="tel:+919724477890">
-                    <a>
-                      <LocalPhoneIcon style={{ fontSize: "medium" }} />
-                      <span>+ 91 97244 77890</span>
-                    </a>
+                    <LocalPhoneIcon style={{ fontSize: "medium" }} />
+                    <span>+ 91 97244 77890</span>
                   </Link>
                 </ContactItem>
                 <ContactItem>
                   <Link href="tel:+919624544103">
-                    <a>
-                      <LocalPhoneIcon style={{ fontSize: "medium" }} />
-                      <span>+ 91 96245 44103</span>
-                    </a>
+                    <LocalPhoneIcon style={{ fontSize: "medium" }} />
+                    <span>+ 91 96245 44103</span>
                   </Link>
                 </ContactItem>
                 <ContactItem>
                   <Link href="tel:+918490935293">
-                    <a>
-                      <LocalPhoneIcon style={{ fontSize: "medium" }} />
-                      <span>+ 91 84909 35293</span>
-                    </a>
+                    <LocalPhoneIcon style={{ fontSize: "medium" }} />
+                    <span>+ 91 84909 35293</span>
                   </Link>
                 </ContactItem>
               </ContactList>
